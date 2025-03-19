@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+      <meta charset="utf-8">
+      <meta name="description" content="My second webpage, using JS">
+      <meta name="keyboard" content="immaculata, icd2o">
+      <meta name="author" content="BrandonBCode">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Allows the Use of Favicons-->
+      <link rel="apple-touch-icon" sizes="180x180" href="./faviconjs3/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./faviconjs3/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./faviconjs3/favicon-16x16.png">
+      <link rel="manifest" href="./faviconjs3/site.webmanifest">
+
+      <!--Google's MDL Crucial Code-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> 
+
+      <link rel="stylesheet" href="./css/style.css">
+
+    <title>Basic Math With JS</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="./js/script.js"></script>
+    <h1>Area and Rectangle Calculation</h1>
+    <h3>The dimensions of a rectangle is 8cm by 9cm.</h3>
+    <div id="add-math">The Area is = ?cm</div>
+    <div id="multiply-math">The Perimeter is = ?cm</div>
+    <br>
+    <button onclick="doMathOnClick()">Calculate</button>
   </body>
 </html>
