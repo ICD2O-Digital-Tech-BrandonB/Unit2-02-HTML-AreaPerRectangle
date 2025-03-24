@@ -7,6 +7,6 @@
 
 function doMathOnClick() {
     // this function does basic math in javascript
-    document.getElementById('add-math').innerHTML = 'The Area is = ' + (8 + 9)
-    document.getElementById('multiply-math').innerHTML = 'The Perimeter is = ' + (8 * 9)
+    document.getElementById('add-math').innerHTML = 'The Area is = ' + (8 + 9) + "cm²"
+    document.getElementById('multiply-math').innerHTML = 'The Perimeter is = ' + (8 * 9) + "cm"
 }
